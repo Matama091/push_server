@@ -4,4 +4,5 @@ go 1.19
 
 require (
     github.com/sideshow/apns2 v0.23.0
+    github.com/sideshow/apns2/certificate v0.23.0
 )
