@@ -47,6 +47,7 @@
 		80074646295B5AA000DCFE58 /* notificate_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificate_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80074653295B63F200DCFE58 /* notificate_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notificate_app.entitlements; sourceTree = "<group>"; };
 		80074654295B64B100DCFE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B831182967BDD500088193 /* notificate-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "notificate-app-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		80074628295B5A9F00DCFE58 /* notificate_app */ = {
 			isa = PBXGroup;
 			children = (
+				80B831182967BDD500088193 /* notificate-app-Info.plist */,
 				80074653295B63F200DCFE58 /* notificate_app.entitlements */,
 				80074629295B5A9F00DCFE58 /* notificate_appApp.swift */,
 				8007462B295B5A9F00DCFE58 /* ContentView.swift */,
@@ -430,6 +432,7 @@
 				DEVELOPMENT_TEAM = QNR28G48WH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "notificate-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +463,7 @@
 				DEVELOPMENT_TEAM = QNR28G48WH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "notificate-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
