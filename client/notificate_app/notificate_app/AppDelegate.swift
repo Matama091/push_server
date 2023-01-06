@@ -34,7 +34,16 @@ extension AppDelegate {
     func application(_ application: UIApplication,
                      didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let token = deviceToken.map { String(format: "%.2hhx", $0) }.joined()
-        print("Device token: \(token)")
+//        var token = ""
+//
+//        for i in 0..<deviceToken.count {
+//                token = token + String(format: "%02.2hhx", arguments: [deviceToken[i]])
+//            }
+            print("Device Token = \(token)")
+        NSLog("text: \(textContent)")
+
+        textContent = token
+        NSLog("Device token: \(token)")
     }
 
     // ④ プッシュ通知の利用登録が失敗した場合

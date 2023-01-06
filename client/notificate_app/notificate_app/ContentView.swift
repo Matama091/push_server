@@ -7,12 +7,19 @@
 
 import SwiftUI
 
+var textContent = "Loading..."
+
 struct ContentView: View {
+    @State var TestText = ""
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    Text(TestText)
+                .padding()
+                .onAppear(perform: {
+                    Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { _ in
+                        self.TestText = textContent
+                    }
+                })
+    }}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
