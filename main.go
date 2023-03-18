@@ -29,7 +29,7 @@ func main() {
 
 	payload := Payload{
 		APS: APS{
-			Alert:            "hello pluslab's member",
+			Alert:            "hello member",
 			ContentAvailable: 1,
 		},
 		PathID: path_id,
@@ -41,8 +41,8 @@ func main() {
 	}
 
 	notification := &apns2.Notification{
-		DeviceToken: "308acbe1ef90d4872861598aab223057d1099e4112f1508380655b9d0dd19cd5",
-		Topic:       "org.pluslab.notification",
+		DeviceToken: {device-token},
+		Topic:       {app-domain},
 		Payload:     []byte(data),
 	}
 
